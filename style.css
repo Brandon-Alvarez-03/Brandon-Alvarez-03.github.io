@@ -1,0 +1,50 @@
+body {
+  color: black;
+}
+
+.parent {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-columns: 100px 1fr 100px;
+  font-size: 25px;
+}
+
+.child-one {
+  background: red;
+  grid-column: 1 / span 3;
+}
+
+.child-two {
+  background: blue;
+}
+
+.child-three {
+  background: green;
+}
+
+.child-four {
+  background: yellow;
+}
+
+.child-five {
+  background: purple;
+  grid-column: 1 / span 3;
+}
+
+@media (max-width: 576px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .child-three {
+    flex-grow: 1;
+  }
+
+  .child-two,
+  .child-four,
+  .child-five {
+    order: 1;
+  }
+}

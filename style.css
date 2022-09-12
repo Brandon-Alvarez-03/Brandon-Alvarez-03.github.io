@@ -285,7 +285,7 @@ footer a {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 800px) {
   body * {
     display: flex;
     flex-direction: column;

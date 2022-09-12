@@ -20,7 +20,7 @@ header {
   justify-content: center;
   align-items: center;
   font-family: 'Roboto', sans-serif;
-  text-shadow: 2px #5b5b5b;
+  text-shadow: #5b5b5b;
   letter-spacing: 5px;
   font-size: x-large;
   font-weight: 700;
@@ -74,34 +74,35 @@ article {
   background-color: transparent;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto;
 }
 
 article .shutter {
   grid-column: 2;
+  box-sizing: border-box;
   background-color: #100a0a;
   border-radius: 100%;
   max-height: 280px;
   max-width: 280px;
   min-height: 280px;
   min-width: 280px;
-  margin-top: 60px;
   margin: 20px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   text-align: center;
-  color: fcfbfc;
+  color: #fcfbfc;
   border: solid 10px #fcfbfc;
   border-style: double;
 }
 
 .shutter {
-  margin-top: 60px;
+  box-shadow: 0 0 5px 5px #5b5b5b;
 }
 
 .shutter p {
-  margin: 10px;
+  margin: 20px;
   padding: 20px;
 }
 
@@ -114,10 +115,10 @@ article .shutter {
 
 .photo-cards img {
   background-color: #d5d1c8;
-  max-width: 200px;
+  max-width: 220px;
   max-height: 280px;
   min-height: 280px;
-  min-width: 200px;
+  min-width: 220px;
   padding: 15px;
   padding-bottom: 45px;
   margin: 40px;
@@ -166,6 +167,22 @@ article .shutter {
   border-right: solid 5px #838a70;
 }
 
+.red-btn {
+  z-index: 10;
+  grid-row: 1 /1;
+  grid-column: 1/1;
+  background-color: #ef381e;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: solid 2px #d5d1c8;
+  border-style: double;
+  box-shadow: 0 0 5px 5px #d5d1c8;
+  position: absolute;
+  top: 280px;
+  left: 300px;
+}
+
 aside {
   border-right: solid 1px #5b5b5b;
 }
@@ -187,12 +204,20 @@ footer a {
   margin-right: 20px;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  text-shadow: 2px #5b5b5b;
+  text-shadow: #5b5b5b;
   letter-spacing: 5px;
   font-size: x-large;
   font-weight: 700;
   line-height: 3em;
 }
+
+@media (min-width: 1500px) {
+  .red-btn {
+    top: 350px;
+    left: 400px;
+  }
+}
+
 
 @media (max-width: 950px) {
   .photo-cards {
@@ -254,9 +279,11 @@ footer a {
   .colors * {
     width: 10px;
   }
+
+  .red-btn {
+    display: none;
+  }
 }
-
-
 
 @media (max-width: 576px) {
   body * {
@@ -310,6 +337,7 @@ footer a {
     border: none;
     display: flex;
     flex-direction: row;
+    font-size: smaller;
   }
 
   .colors {
@@ -322,5 +350,9 @@ footer a {
 
   .colors * {
     width: 10px;
+  }
+
+  .red-btn {
+    display: none;
   }
 }

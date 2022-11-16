@@ -1,0 +1,9 @@
+.nav {
+  grid-area: nav; 
+  background-color: rgba(100, 100, 100, 0.5);
+  color: #121212;
+  display: flex;
+  color: blue;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+.main {
+  grid-area: main;
+  height: 160vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: silver;
+  color: #121212;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}

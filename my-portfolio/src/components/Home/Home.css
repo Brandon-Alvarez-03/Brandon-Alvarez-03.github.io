@@ -1,0 +1,9 @@
+.home {
+  grid-area: main;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgoldenrodyellow;
+  color: #121212;
+}

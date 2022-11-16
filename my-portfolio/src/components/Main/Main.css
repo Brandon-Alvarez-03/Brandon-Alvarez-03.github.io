@@ -1,4 +1,5 @@
 .main {
+  z-index: -1;
   grid-area: main;
   height: 160vh;
   display: flex;

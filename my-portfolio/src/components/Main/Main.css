@@ -5,8 +5,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: silver;
+  background-color: rgba(48, 27, 68,1);
   color: #121212;
   margin-bottom: 4px;
   margin-top: 4px;
+  color: rgba(115, 63, 171, 1)
 }

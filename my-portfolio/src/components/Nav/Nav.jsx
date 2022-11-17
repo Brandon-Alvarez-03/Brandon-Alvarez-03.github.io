@@ -1,14 +1,9 @@
-import React, {useState} from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import React from "react";
+import {Link} from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
-import {Link, Navigate} from "react-router-dom";
-import Button from "react-bootstrap/Button";
 import {CgGitFork} from "react-icons/cg";
-import {ImBlog} from "react-icons/im";
 import logo from "../../assets/full_name.png";
+import Button from "react-bootstrap/Button";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -22,7 +17,7 @@ function NavBar() {
   return (
     <div className="navbar">
       <Link to="/">
-        <div className="initials">BA</div>
+        <img src={logo} className="logo initials" alt="logo" width={"100px"} />
       </Link>
 
       <div className="links-container">
@@ -50,9 +45,12 @@ function NavBar() {
           href="https://github.com/Brandon-Alvarez-03"
           target="_blank"
           rel="noreferrer"
+          className="git-btn"
         >
-          <AiFillStar style={{marginTop: "3px"}} />
-          <CgGitFork style={{marginTop: "3px"}} />
+          <Button className="git-btn-inner">
+            <AiFillStar style={{marginTop: "3px"}} />
+            <CgGitFork style={{marginTop: "3px"}} />
+          </Button>
         </Nav.Link>
       </div>
     </div>

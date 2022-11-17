@@ -2,7 +2,6 @@
   text-align: center;
   width: 100vw;
   height: auto;
-  color: #121212;
 
   font-family: var(
     --font-family,
@@ -14,16 +13,41 @@
     CircularSp-Deva,
     var(--fallback-fonts, sans-serif)
   );
-
+/* 
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 75px 1fr 75px;
   grid-template-areas:
     "nav"
     "main"
-    "ft";
+    "ft"; */
 }
 
-.App * {
+/* .App * {
   border: 1px solid red;
+} */
+
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2d1950;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(178, 121, 216, 0.959);
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(222, 130, 235, 0.911);
+  border-radius: 12px;
 }

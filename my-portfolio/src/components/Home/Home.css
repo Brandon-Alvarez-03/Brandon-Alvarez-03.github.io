@@ -2,9 +2,9 @@
   grid-area: main;
   height: 100%;
   width: 100%;
-  flex-direction: column;
+  /* flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   background-color: inherit;
   color: rgba(84, 59, 163, 1);
 }

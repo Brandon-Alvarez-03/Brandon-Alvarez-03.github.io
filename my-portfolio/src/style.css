@@ -161,7 +161,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: gray !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -258,7 +258,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-color: gray;
+  background-color: whitesmoke;
   /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
@@ -321,7 +321,7 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  background-color: gray;
+  background-color: whitesmoke;
   /* padding-bottom: 70px !important;
   padding-top: 70px !important; */
 }
@@ -341,8 +341,8 @@ button:focus {
 
 .home-about-social {
   text-align: center !important;
-  /* padding-top: 25px; */
-  color: white !important;
+  padding-top: 100px;
+  color: gray !important;
 }
 
 .home-about-social-links {
@@ -456,7 +456,8 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-color: whitesmoke;
 }
 
 .project-card {
@@ -469,7 +470,7 @@ button:focus {
 
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-  color: white !important;
+  color: grey !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
@@ -478,7 +479,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px black !important;
 }
 
 .blog-card {
@@ -491,14 +492,14 @@ button:focus {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
-  color: white !important;
+  box-shadow: 0 3px 3px 2px rgba(7, 75, 70, 0.87) !important;
+  color: grey !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
 
 .blog-link {
-  color: white !important;
+  color: grey !important;
   text-decoration: none !important;
 }
 
@@ -509,7 +510,7 @@ button:focus {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px rgba(7, 75, 70, 0.87) !important;
 }
 
 .card-img-top {
@@ -527,7 +528,7 @@ button:focus {
 .btn-primary {
   color: #fff !important;
   background-color: darkgray !important;
-  border-color: rgb(1, 83, 83) !important;
+  border-color: rgba(7, 75, 70, 0.87) !important;
 }
 
 .btn-primary:hover {
@@ -540,7 +541,7 @@ button:focus {
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: grey !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -556,7 +557,7 @@ button:focus {
   padding-bottom: 30px !important;
   /* background-image: var(--section-background-color) !important; */
   color: rgb(36, 35, 35) !important;
-  background-color: silver;
+  background-color: whitesmoke;
 }
 
 .tech-icons {
@@ -564,12 +565,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid rgba(7, 75, 70, 0.87) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgba(7, 75, 70, 0.87) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -583,7 +584,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid black !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -592,7 +593,7 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
+  color: red !important;
   background-color: transparent !important;
 }
 
@@ -613,16 +614,19 @@ button:focus {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
-  padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
+  padding-top: 180px !important;
+  padding-bottom: 50px !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-color: whitesmoke;
+  color: whitesmoke !important;
 }
 
+.textLayer {
+  display: none;
+}
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
-  justify-content: center;
 }
 
 .resume-left {
@@ -654,14 +658,14 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid rgba(7, 75, 70, 0.87);
   position: relative;
 }
 
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #5234795d;
+  background: whitesmoke;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;

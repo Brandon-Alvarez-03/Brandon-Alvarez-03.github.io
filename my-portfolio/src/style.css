@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: silver;
+  --imp-text-color: gray;
 }
 
 .gray {
@@ -442,8 +442,13 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: rgb(36, 35, 35) !important;
 }
+
+.blockquote {
+  color: rgb(36, 35, 35)!important;
+}
+
 /* --------- */
 /* Projects */
 /* --------- */
@@ -551,7 +556,7 @@ button:focus {
   padding-bottom: 30px !important;
   /* background-image: var(--section-background-color) !important; */
   color: rgb(36, 35, 35) !important;
-  background-color: gray;
+  background-color: silver;
 }
 
 .tech-icons {

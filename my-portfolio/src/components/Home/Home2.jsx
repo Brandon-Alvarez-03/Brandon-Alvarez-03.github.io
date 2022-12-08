@@ -1,8 +1,6 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-// import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
-import {AiFillGithub, AiOutlineTwitter, AiFillInstagram} from "react-icons/ai";
+import {AiFillGithub} from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
 
 function Home2() {
@@ -10,10 +8,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            {/* <h1 style={{fontSize: "2.6em"}}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1> */}
+          <Col md={12} className="home-about-description">
             <p className="home-about-body">
               Software engineer with an awesome background in tech and
               engineering. I fell in love with programming after taking my
@@ -28,17 +23,12 @@ function Home2() {
               <br />
               <br />I currently work with
               <i>
-                <b className="purple">
+                <b className="gray">
                   {" "}
                   Javascript, Python, React.js, HTML, CSS{" "}
                 </b>
               </i>
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              {/* <img src={myImg} className="img-fluid" alt="avatar" /> */}
-            </Tilt>
           </Col>
         </Row>
         <Row>

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import {Container, Row} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../../assets/Brandon_Alvarez_Resume.pdf";
+import pdf from "../../assets/Resume_Brandon_Alvarez.pdf";
 import {AiOutlineDownload} from "react-icons/ai";
 import {Document, Page, pdfjs} from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/Brandon-Alvarez-03/Brandon-Alvarez-03.github.io/blob/main/my-portfolio/src/assets/Brandon_Alvarez_Resume.pdf";
+  "https://github.com/Brandon-Alvarez-03/Brandon-Alvarez-03.github.io/blob/main/my-portfolio/src/assets/Resume_Brandon_Alvarez.pdf";
 
 function Resume() {
   const [width, setWidth] = useState(1200);
@@ -21,7 +21,6 @@ function Resume() {
   return (
     <div>
       <Container fluid className="resume-section">
-
         <Row style={{justifyContent: "center", position: "relative"}}>
           <Button
             variant="primary"
@@ -47,7 +46,7 @@ function Resume() {
             target="_blank"
             style={{maxWidth: "250px", textDecoration: "none"}}
           >
-            <AiOutlineDownload  />
+            <AiOutlineDownload />
             &nbsp;Download Resume
           </Button>
         </Row>

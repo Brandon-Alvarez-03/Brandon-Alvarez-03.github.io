@@ -10,22 +10,19 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-description">
             <p className="home-about-body">
-              Software engineer with an awesome background in tech and
-              engineering. I fell in love with programming after taking my
-              computer solutions course for engineers in college. I was far from
-              being the best in my class... which only motivated me to work
-              harder to gain confidence.
-              <br />
-              <br />
-              Several years later, I was a supplemental instructor for a
-              graduate level programming course for environmental engineers. The
-              rest is history!
+              As a software engineer with a strong foundation in technology and
+              engineering, I have a passion for programming that was ignited
+              during my computer solutions course in college. Although I wasn't
+              initially the top performer in the class, I used that as
+              motivation to push myself harder and improve my skills. Now, I am
+              confident in my abilities and eager to continue learning and
+              growing in my career.
               <br />
               <br />I currently work with
               <i>
                 <b className="gray">
                   {" "}
-                  Javascript, Python, React.js, HTML, CSS{" "}
+                  Javascript, Python, Java, React.js, HTML, CSS{" "}
                 </b>
               </i>
             </p>
@@ -34,7 +31,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h2>CONNECT WITH ME</h2>
-            <br/>
+            <br />
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

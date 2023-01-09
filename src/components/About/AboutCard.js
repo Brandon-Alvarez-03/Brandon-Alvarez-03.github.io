@@ -10,7 +10,15 @@ function AboutCard() {
           <p style={{textAlign: "justify"}}>
             Hi Everyone, I am <span className="gray">Brandon Alvarez </span>
             located in <span className="gray"> NYC.</span>
-            <br />I am a software engineering boot camp grad with a strong (environmental/civil) engineering background. I have been programming in my previous engineering roles for over a year and fell in love enough to pursue software engineering full-time.
+            <br />
+            As a software engineer with a strong background in environmental and
+            civil engineering, I have always been drawn to the world of
+            programming and technology. I have been actively incorporating
+            programming into my engineering work for several years, and have now
+            fully transitioned into a career in software engineering. With my
+            diverse skillset and experience, I am confident in my ability to
+            tackle any challenge that comes my way and continue to grow and
+            succeed in this field.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -24,6 +32,9 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> Tutoring STEM subjects
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Studying Spanish, Italian, and Korean
             </li>
           </ul>
         </blockquote>

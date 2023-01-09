@@ -21,7 +21,7 @@ function Projects() {
               imgPath={boogeyman}
               isBlog={false}
               title="The Boogeyman"
-              description="Front-end game using Vanilla JavaScript, HTML, CSS, and Canvas. Visually engaging game and fun to play"
+              description="A visually stunning and highly engaging front-end game built with Vanilla JavaScript, HTML, CSS, and Canvas. The combination of these technologies allows for smooth gameplay and visually impressive graphics, making it a truly enjoyable experience for players"
               ghLink="https://github.com/Brandon-Alvarez-03/The-Boogeyman-Front-End-Game"
               demoLink="https://the-boogeyman.netlify.app/"
             />
@@ -32,7 +32,7 @@ function Projects() {
               imgPath={breddit}
               isBlog={false}
               title="Breddit: the Better Reddit"
-              description="Full-CRUD Social Media clone inspired by Reddit with a fun 'bread-themed' twist. Created with React.js and React-Bootstrap on the front-end and a Python/Django Back-end."
+              description="Social media platform inspired by Reddit and given a unique, bread-themed twist! This full-featured site was developed using React.js and React-Bootstrap on the front-end, and a Python/Django back-end to enable complete CRUD functionality"
               ghLink="https://github.com/SEI-Buffleheads/reddit-clone"
               demoLink="https://breddit.netlify.app/"
             />
@@ -43,7 +43,7 @@ function Projects() {
               imgPath={petlyfe}
               isBlog={false}
               title="PetLyfe: Pet Style Ecommerce Site"
-              description="Ecommerce-styled site selling pet style products utilizing RESTFUL APIs, MongoDB, Express.js to create and manage backend and React.js for front-end"
+              description="Ecommerce site for stylish pet products! Built with React.js for the front-end, Express.js, MongoDB, and Restful APIs for the back-end, to create a user-friendly and efficient shopping experience. Whether you're looking to spoil your furry friend or simply browse our selection"
               ghLink="https://github.com/Brandon-Alvarez-03/pet-style-mern"
               demoLink="https://pet-lyfe.netlify.app/"
             />

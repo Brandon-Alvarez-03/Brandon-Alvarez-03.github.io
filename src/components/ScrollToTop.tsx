@@ -1,11 +1,12 @@
-import React from "react";
+import {useEffect} from "react";
+import {useLocation} from "react-router-dom";
 
-interface Props {
-  load: boolean;
-}
-
-const Pre: React.FC<Props> = (props: Props) => {
-  return <div id={props.load ? "preloader" : "preloader-none"}></div>;
+const ScrollToTop: React.FC = () => {
+  const {pathname} = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
 };
 
-export default Pre;
+export default ScrollToTop;

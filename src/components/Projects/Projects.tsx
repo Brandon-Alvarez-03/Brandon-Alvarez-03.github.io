@@ -5,9 +5,7 @@ import boogeyman from "../../assets/boogeyman.png";
 import breddit from "../../assets/Breddit.png";
 import petlyfe from "../../assets/PetLyfe.png";
 
-
-
-function Projects() {
+const Projects: React.FC = () => {
   return (
     <Container fluid className="project-section">
       <Container>
@@ -52,6 +50,6 @@ function Projects() {
       </Container>
     </Container>
   );
-}
+};
 
 export default Projects;

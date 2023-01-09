@@ -3,7 +3,7 @@ import {Container, Row, Col} from "react-bootstrap";
 import {AiFillGithub} from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
 
-function Home2() {
+function Home2(): JSX.Element {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>

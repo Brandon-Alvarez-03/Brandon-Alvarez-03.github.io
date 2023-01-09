@@ -2,7 +2,9 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import {ImPointRight} from "react-icons/im";
 
-function AboutCard() {
+interface AboutCardProps {}
+
+const AboutCard: React.FC<AboutCardProps> = (): JSX.Element => {
   return (
     <Card className="quote-card-view">
       <Card.Body>
@@ -41,6 +43,6 @@ function AboutCard() {
       </Card.Body>
     </Card>
   );
-}
+};
 
 export default AboutCard;

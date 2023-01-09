@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Type() {
+function Type(): JSX.Element {
   return (
     <Typewriter
       options={{

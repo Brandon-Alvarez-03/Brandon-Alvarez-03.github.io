@@ -4,10 +4,24 @@ import Button from "react-bootstrap/Button";
 import {CgWebsite} from "react-icons/cg";
 import {BsGithub} from "react-icons/bs";
 
-function ProjectCards(props) {
+interface Props {
+  imgPath: string;
+  title: string;
+  description: string;
+  ghLink: string;
+  isBlog: boolean;
+  demoLink?: string;
+}
+
+const ProjectCards: React.FC<Props> = (props: Props) => {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{minHeight: "158px"}} />
+      <Card.Img
+        variant="top"
+        src={props.imgPath}
+        alt="card-img"
+        style={{minHeight: "158px"}}
+      />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
 
@@ -38,5 +52,6 @@ function ProjectCards(props) {
       </Card.Body>
     </Card>
   );
-}
+};
+
 export default ProjectCards;

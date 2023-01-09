@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from "react";
-import Preloader from "../src/components/Pre";
-import NavBar from "./components/Nav/NavBar.jsx";
+import Preloader from "./components/Pre";
+import NavBar from "./components/Nav/NavBar.js";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer/Footer.jsx";
+import Footer from "./components/Footer/Footer.js";
 import Resume from "./components/Resume/Resume";
 import {
   BrowserRouter as Router,

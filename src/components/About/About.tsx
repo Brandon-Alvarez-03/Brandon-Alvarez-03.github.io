@@ -4,7 +4,9 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 
-function About() {
+interface AboutProps {}
+
+const About: React.FC<AboutProps> = (): JSX.Element => {
   return (
     <Container fluid className="about-section">
       <Container>
@@ -31,6 +33,6 @@ function About() {
       </Container>
     </Container>
   );
-}
+};
 
 export default About;

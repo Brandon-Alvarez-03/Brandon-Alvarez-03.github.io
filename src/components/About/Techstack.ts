@@ -23,7 +23,9 @@ import {
 } from "react-icons/si";
 import {BsBootstrapFill} from "react-icons/bs";
 
-function Techstack() {
+interface TechstackProps {}
+
+const Techstack: React.FC<TechstackProps> = (): JSX.Element => {
   return (
     <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
       <Col xs={4} md={2} className="tech-icons">
@@ -104,6 +106,6 @@ function Techstack() {
       </Col>
     </Row>
   );
-}
+};
 
 export default Techstack;

@@ -13,7 +13,7 @@ import {
 import "./Nav.css";
 import {CgFileDocument} from "react-icons/cg";
 
-function NavBar() {
+function NavBar(): JSX.Element {
   return (
     <div className="navbar">
       <Link to="/">

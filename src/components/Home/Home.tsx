@@ -3,7 +3,7 @@ import {Container, Row, Col} from "react-bootstrap";
 import Home2 from "./Home2";
 import Type from "./Type";
 
-function Home() {
+function Home(): JSX.Element {
   return (
     <section>
       <Container fluid className="home-section" id="home">

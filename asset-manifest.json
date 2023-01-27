@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.cffc4c5c.css",
-    "main.js": "/static/js/main.16d33e68.js",
+    "main.js": "/static/js/main.6d43397c.js",
     "static/js/787.5330f22f.chunk.js": "/static/js/787.5330f22f.chunk.js",
     "static/media/boogeyman.png": "/static/media/boogeyman.2488d420dca3ca782bbe.png",
     "static/media/PetLyfe.png": "/static/media/PetLyfe.540627b955b2b0fbe7d0.png",
-    "static/media/Brandon_Alvarez_Resume.pdf": "/static/media/Brandon_Alvarez_Resume.0b741026b2923a2c18bd.pdf",
+    "static/media/Brandon_Alvarez_Resume.pdf": "/static/media/Brandon_Alvarez_Resume.50127737a557ca1eedcf.pdf",
     "static/media/Breddit.png": "/static/media/Breddit.dd63c26035f4e2fdbaf7.png",
+    "static/media/Daily_Drip.png": "/static/media/Daily_Drip.0a63a6c088b6a582d8fa.png",
     "static/media/full_name.png": "/static/media/full_name.05767fdd8a57525c2ff6.png",
     "index.html": "/index.html",
     "main.cffc4c5c.css.map": "/static/css/main.cffc4c5c.css.map",
-    "main.16d33e68.js.map": "/static/js/main.16d33e68.js.map",
+    "main.6d43397c.js.map": "/static/js/main.6d43397c.js.map",
     "787.5330f22f.chunk.js.map": "/static/js/787.5330f22f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cffc4c5c.css",
-    "static/js/main.16d33e68.js"
+    "static/js/main.6d43397c.js"
   ]
 }

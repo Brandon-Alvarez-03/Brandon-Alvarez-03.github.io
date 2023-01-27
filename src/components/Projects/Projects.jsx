@@ -5,6 +5,7 @@ import boogeyman from "../../assets/boogeyman.png";
 import breddit from "../../assets/Breddit.png";
 import petlyfe from "../../assets/PetLyfe.png";
 import daily from "../../assets/Daily_Drip.png";
+import geese from "../../assets/Geese_API.png";
 
 function Projects() {
   return (
@@ -56,6 +57,19 @@ function Projects() {
               description="Daily Drip is a full stack web app created for the purpose of helping individuals connect with the world to understand the severity of water stress and scarcity and how they can make small changes in their daily lives to be more sustainable!"
               ghLink="https://devpost.com/software/daily-drip-water-footprint-tracker-and-newsletter?ref_content=user-portfolio&ref_feature=in_progress"
               demoLink="https://daily-drip.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={geese}
+              isBlog={false}
+              title="NY Geese API: Goose Flock Location and Size Data API"
+              description="This API provides recent updates on the general and precise locations of flocks of geese by the day throughout New York State in a JSON format. Intended for use with geospatial mapping applications.
+
+(Extrapolated from the Cornell Ornithology eBird API and manipulated for more congruent location information)"
+              ghLink="https://github.com/Brandon-Alvarez-03/NY-Goose-Tracker-API"
+              demoLink="https://ny-goose-tracker-api-production.up.railway.app/geese"
             />
           </Col>
         </Row>

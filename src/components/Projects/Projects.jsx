@@ -14,7 +14,10 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{color: "grey"}}>Here are my recent projects.</p>
+        <p style={{color: "grey"}}>
+          *** Projects shown are my beginner projects, current projects will be
+          updated soon STAY TUNED!
+        </p>
         <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
           <Col md={4} className="project-card">
             <ProjectCard

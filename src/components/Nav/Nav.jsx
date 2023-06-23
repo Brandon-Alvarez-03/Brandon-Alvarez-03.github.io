@@ -36,10 +36,10 @@ function NavBar() {
           <p>Projects</p>
         </Link>
 
-        <Link to="/resume" className="link">
+        {/* <Link to="/resume" className="link">
           <CgFileDocument style={{marginBottom: "2px"}} />
           <p>Resume</p>
-        </Link>
+        </Link> */}
 
         <Nav.Link
           href="https://github.com/Brandon-Alvarez-03"

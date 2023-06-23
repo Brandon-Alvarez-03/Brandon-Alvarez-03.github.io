@@ -10,27 +10,27 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-description">
             <p className="home-about-body">
-              As a software engineer with a strong foundation in technology and
-              engineering, I have a passion for programming that was ignited
-              during my computer solutions course in college. Although I wasn't
-              initially the top performer in the class, I used that as
-              motivation to push myself harder and improve my skills. Now, I am
-              confident in my abilities and eager to continue learning and
-              growing in my career.
+              I'm a New York City-based Software Engineer (formerly an
+              environmental engineer) <br></br>I have a strong background in a
+              variety of technical disciplines and currently work as a backend
+              engineer at J.P. Morgan Chase & Co. <br></br>
+              Drone building and programming is also in my wheelhouse as a
+              professional and licensed drone pilot!
+              <br></br>
+              Coaching junior engineers, boot campers, and tech career changers
+              is my passion! I motivate and inspire the mindset needed to
+              rapidly achieve career goals.
               <br />
               <br />I currently work with
               <i>
-                <b className="gray">
-                  {" "}
-                  Javascript, Python, Java, React.js, HTML, CSS{" "}
-                </b>
+                <b className="gray"> Python, AWS, Linux/Bash, and Rust </b>
               </i>
             </p>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h2>CONNECT WITH ME</h2>
+            <h2>CONNECT WITH ME!</h2>
             <br />
             <ul className="home-about-social-links">
               <li className="social-icons">

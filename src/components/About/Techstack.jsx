@@ -12,11 +12,9 @@ import {
   DiScrum,
   DiCss3,
   DiHtml5,
-  DiRust,
 } from "react-icons/di";
 import {
   SiExpress,
-  SiTypescript,
   SiFlask,
   SiAutodesk,
   SiTailwindcss,
@@ -27,6 +25,7 @@ import {
   SiGraphql,
   SiSolidity,
 } from "react-icons/si";
+
 import {BsBootstrapFill} from "react-icons/bs";
 
 function Techstack() {
@@ -48,10 +47,6 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons">
           <DiDjango />
           <p style={{fontSize: ".18em"}}>Django</p>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <DiRust />
-          <p style={{fontSize: ".18em"}}>Rust</p>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <DiNodejs />
@@ -79,10 +74,6 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons">
           <SiNextdotjs />
           <p style={{fontSize: ".18em"}}>Next.js</p>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiTypescript />
-          <p style={{fontSize: ".18em"}}>TypeScript</p>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <DiJavascript1 />

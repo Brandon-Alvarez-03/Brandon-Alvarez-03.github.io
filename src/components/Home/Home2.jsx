@@ -10,20 +10,11 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-description">
             <p className="home-about-body">
-              I'm a New York City-based Software Engineer (formerly an
-              environmental engineer) <br></br>I have a strong background in a
-              variety of technical disciplines and currently work as a backend
-              engineer at J.P. Morgan Chase & Co. <br></br>
-              Drone building and programming is also in my wheelhouse as a
-              professional and licensed drone pilot!
-              <br></br>
-              Coaching junior engineers, boot campers, and tech career changers
-              is my passion! I motivate and inspire the mindset needed to
-              rapidly achieve career goals.
+                          I am a Software Engineer based in New York City.
               <br />
               <br />I currently work with
               <i>
-                <b className="gray"> Python, AWS, Linux/Bash, and Rust </b>
+                <b className="gray"> Go, Python, React </b>
               </i>
             </p>
           </Col>

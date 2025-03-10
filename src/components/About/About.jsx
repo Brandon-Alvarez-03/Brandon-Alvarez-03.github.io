@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import Github from "./Github";
+// import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 
@@ -27,7 +27,7 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Techstack />
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

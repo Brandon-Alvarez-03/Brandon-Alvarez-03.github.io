@@ -1,13 +1,13 @@
 import React from "react";
 import {Col, Row} from "react-bootstrap";
 import {
+  DiGo,
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
   DiPython,
   DiGit,
-  DiDjango,
   DiPostgresql,
   DiScrum,
   DiCss3,
@@ -16,14 +16,10 @@ import {
 import {
   SiExpress,
   SiFlask,
-  SiAutodesk,
   SiTailwindcss,
   SiNextdotjs,
-  SiAmazonaws,
   SiDocker,
-  SiJenkins,
   SiGraphql,
-  SiSolidity,
 } from "react-icons/si";
 
 import {BsBootstrapFill} from "react-icons/bs";
@@ -37,6 +33,10 @@ function Techstack() {
       <Row style={{justifyContent: "center"}}>
         <h3>Backend Technologies</h3>
         <Col xs={4} md={2} className="tech-icons">
+          <DiGo />
+          <p style={{fontSize: ".18em"}}>GoLang</p>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
           <DiPython />
           <p style={{fontSize: ".18em"}}>Python</p>
         </Col>
@@ -45,20 +45,12 @@ function Techstack() {
           <p style={{fontSize: ".18em"}}>Flask</p>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-          <DiDjango />
-          <p style={{fontSize: ".18em"}}>Django</p>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
           <DiNodejs />
           <p style={{fontSize: ".18em"}}>Node.js</p>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiExpress />
           <p style={{fontSize: ".18em"}}>Express.js</p>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiAmazonaws />
-          <p style={{fontSize: ".18em"}}>AWS</p>
         </Col>
       </Row>
 
@@ -124,14 +116,6 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons">
           <SiDocker />
           <p style={{fontSize: ".18em"}}>Docker</p>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiJenkins />
-          <p style={{fontSize: ".18em"}}>Jenkins</p>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiSolidity />
-          <p style={{fontSize: ".18em"}}>Solidity</p>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <DiGit />

@@ -2,22 +2,22 @@ import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import boogeyman from "../../assets/boogeyman.png";
-import breddit from "../../assets/Breddit.png";
-import petlyfe from "../../assets/PetLyfe.png";
-import daily from "../../assets/Daily_Drip.png";
-import geese from "../../assets/Geese_API.png";
+// import breddit from "../../assets/Breddit.png";
+// import petlyfe from "../../assets/PetLyfe.png";
+// import daily from "../../assets/Daily_Drip.png";
+// import geese from "../../assets/Geese_API.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          <strong className="purple">Projects</strong>
         </h1>
-        <p style={{color: "grey"}}>
+        {/* <p style={{color: "grey"}}>
           *** Projects shown are my beginner projects, current projects will be
           updated soon STAY TUNED!
-        </p>
+        </p> */}
         <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -30,7 +30,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={breddit}
               isBlog={false}
@@ -74,7 +74,7 @@ function Projects() {
               ghLink="https://github.com/Brandon-Alvarez-03/NY-Goose-Tracker-API"
               demoLink="https://ny-goose-tracker-api-production.up.railway.app/geese"
             />
-          </Col>
+          </Col>  */}
         </Row>
       </Container>
     </Container>

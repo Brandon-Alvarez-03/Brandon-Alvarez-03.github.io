@@ -1,9 +1,13 @@
 .footer {
   display: flex;
   /* grid-area: ft; */
-  color: #121212;
+  color: white;
   justify-content: center;
   align-items: center;
   background-color: rgba(98, 98, 98, 1);
-  color: white;
+  width: 100%;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  flex-shrink: 0;
 }

@@ -9,6 +9,8 @@ import {
   AiOutlineHome,
   AiTwotoneThunderbolt,
   AiOutlineUser,
+  AiOutlineMessage,
+  
 } from "react-icons/ai";
 import "./Nav.css";
 import {CgFileDocument} from "react-icons/cg";
@@ -34,6 +36,11 @@ function NavBar() {
         <Link to="/projects" className="link">
           <AiTwotoneThunderbolt style={{marginBottom: "2px"}} />
           <p>Projects</p>
+        </Link>
+
+        <Link to="/contact" className="link">
+          <AiOutlineMessage style={{marginBottom: "2px"}} />
+          <p>Contact</p>
         </Link>
 
         {/* <Link to="/resume" className="link">

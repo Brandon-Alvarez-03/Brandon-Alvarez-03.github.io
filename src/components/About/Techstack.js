@@ -85,8 +85,9 @@ function Techstack() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiTailwindcss />
-          <p style={{fontSize: ".18em"}}>Tailwincss</p>
-        </Col>
+          <p style={{fontSize: ".18em"}}>Tailwind</p>
+              </Col>
+              
       </Row>
 
       <br></br>

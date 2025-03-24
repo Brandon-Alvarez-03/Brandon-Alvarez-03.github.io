@@ -1,0 +1,43 @@
+.contact-section {
+  position: relative;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important;
+  background-color: white;
+  color: rgba(98, 98, 98, 1);
+  min-height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-links-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex: 1;
+  align-items: center;
+}
+
+.contact-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(98, 98, 98, 1);
+  transition: transform 0.3s ease;
+}
+
+.contact-link:hover {
+  transform: scale(1.1);
+  color: rgba(84, 59, 163, 1);
+}
+
+.contact-link svg {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.contact-link p {
+  margin: 0;
+  font-size: 1em;
+} 

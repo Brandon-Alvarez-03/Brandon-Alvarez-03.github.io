@@ -10,6 +10,7 @@ import NavBar from "./components/Nav/NavBar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
@@ -39,6 +40,7 @@ const App = () => {
             <Route path="/project" element={<Projects />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<Navigate to="/" />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
           <Footer />
         </div>

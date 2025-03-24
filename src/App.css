@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
@@ -15,4 +18,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* Main content wrapper */
+.App > div:not(.footer) {
+  flex: 1 0 auto;
+  min-height: calc(100vh - 50px); /* Subtract navbar height */
+  padding-bottom: 60px; /* Space for footer */
 }
